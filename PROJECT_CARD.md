@@ -272,7 +272,7 @@ $$
 
 $$
 M=\frac{P+Q}{2},\qquad
-\operatorname{JSD}(P,Q)=\frac{1}{2}D_{\mathrm{KL}}(P\|M)+\frac{1}{2}D_{\mathrm{KL}}(Q\|M)
+\mathrm{JSD}(P,Q)=\frac{1}{2}D_{\mathrm{KL}}(P\|M)+\frac{1}{2}D_{\mathrm{KL}}(Q\|M)
 $$
 
 <div dir="rtl">

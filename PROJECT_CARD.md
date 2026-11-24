@@ -169,25 +169,25 @@ User history up to time t → Predictive model → Future interaction distributi
 
 </div>
 
-$
+```math
 N_u(t,h)=\sum_{j=1}^{K} n_{u,j}(t,h)
-$
+```
 
-$
+```math
 y_{u,k}(t,h)=\frac{n_{u,k}(t,h)}{N_u(t,h)}
-$
+```
 
-$
+```math
 \mathbf{y}_u(t,h)=(y_{u,1}(t,h),\ldots,y_{u,K}(t,h))
-$
+```
 
-$
+```math
 y_{u,k}(t,h)\geq 0
-$
+```
 
-$
+```math
 \sum_{k=1}^{K}y_{u,k}(t,h)=1
-$
+```
 
 <div dir="rtl">
 
@@ -265,9 +265,9 @@ $
 
 </div>
 
-$$
+```math
 D_{\mathrm{TV}}(P,Q)=\frac{1}{2}\sum_{k=1}^{K}|p_k-q_k|
-$$
+```
 
 <div dir="rtl">
 
@@ -279,10 +279,13 @@ $$
 
 </div>
 
-$$
-M=\frac{P+Q}{2},\qquad
+```math
+M=\frac{P+Q}{2}
+```
+
+```math
 \mathrm{JSD}(P,Q)=\frac{1}{2}D_{\mathrm{KL}}(P\|M)+\frac{1}{2}D_{\mathrm{KL}}(Q\|M)
-$$
+```
 
 <div dir="rtl">
 
@@ -294,10 +297,13 @@ $$
 
 </div>
 
-$$
-\Delta p_k=p_{k,\mathrm{future}}-p_{k,\mathrm{past}},\qquad
+```math
+\Delta p_k=p_{k,\mathrm{future}}-p_{k,\mathrm{past}}
+```
+
+```math
 \Delta\hat p_k=\hat p_{k,\mathrm{future}}-p_{k,\mathrm{past}}
-$$
+```
 
 <div dir="rtl">
 
